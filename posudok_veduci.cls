@@ -107,17 +107,17 @@
   \ComputeTotalPoints
   \def\finalGrade{}
   \ifnum\bodySpolu>91
-    \def\finalGrade{výborne}
+    \def\finalGrade{výborne (A)}
   \else\ifnum\bodySpolu>82
-    \def\finalGrade{veľmi dobre}
+    \def\finalGrade{veľmi dobre (B)}
   \else\ifnum\bodySpolu>73
-    \def\finalGrade{dobre}
+    \def\finalGrade{dobre (C)}
   \else\ifnum\bodySpolu>64
-    \def\finalGrade{uspokojivo}
+    \def\finalGrade{uspokojivo (D)}
   \else\ifnum\bodySpolu>55
-    \def\finalGrade{dostatočne}
+    \def\finalGrade{dostatočne (E)}
   \else
-    \def\finalGrade{nedostatočne}
+    \def\finalGrade{nedostatočne (FX)}
   \fi\fi\fi\fi\fi
 }
 
