@@ -1,0 +1,35 @@
+\documentclass[11pt]{posudok_veduci}
+
+% Meno študenta:
+\setStudentName{}
+
+% Študijný program:
+\setStudyProgram{Robotika a kybernetika}
+
+% Názov bakalárskej práce:
+\setThesisTitle{}
+
+% Meno vedúceho BP:
+\setSupervisorName{}
+
+% index CRZP
+\setCrzpRatio{}
+
+% Dňa
+\MyDate{}{}{}
+
+\input{include/hodnotenie_body}
+
+\begin{document}
+
+\DrawHeader
+\DrawEvaluationTable
+\DrawWordEvaluation{include/hodnotenie_slovne}
+\printOriginalityStatement{include/stanovisko_originalita}
+\DrawAutoGrade
+\DrawRecommendation
+\DrawFooter
+
+\DrawEvaluationCriteria{include/hodnotenie_kriteria}
+
+\end{document}
